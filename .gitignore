@@ -1,0 +1,23 @@
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+.venv-1/
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# ChromaDB vector database
+**/chroma_db/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
