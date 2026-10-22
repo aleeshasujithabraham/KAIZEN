@@ -1,0 +1,187 @@
+{
+  "concepts": [
+    {
+      "id": "c01",
+      "name": "Python Syntax, Variables, and Data Types",
+      "description": "Understanding basic program structure, variable assignment, primitive data types, and type casting.",
+      "difficulty": 1,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c02",
+      "name": "Operators, Expressions, and Basic I/O",
+      "description": "Using arithmetic, logical, and comparison operators alongside console input and output functions.",
+      "difficulty": 1,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c03",
+      "name": "Conditional Statements",
+      "description": "Directing program flow using if, elif, and else branching constructs.",
+      "difficulty": 2,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c04",
+      "name": "Loops and Iteration",
+      "description": "Repeating code execution using while loops, for loops, and loop control statements.",
+      "difficulty": 2,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c05",
+      "name": "String Manipulation",
+      "description": "Working with text data using indexing, slicing, formatting, and common string methods.",
+      "difficulty": 2,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c06",
+      "name": "Sequences and Collections: Lists, Tuples, and Sets",
+      "description": "Creating, indexing, modifying, and applying common operations to sequential and set collections.",
+      "difficulty": 2,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c07",
+      "name": "Key-Value Mappings: Dictionaries",
+      "description": "Managing associative arrays with key-value pairs, nested lookups, and dictionary methods.",
+      "difficulty": 3,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c08",
+      "name": "Functions and Variable Scope",
+      "description": "Defining reusable blocks of code, working with arguments, return values, and understanding scope.",
+      "difficulty": 3,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c09",
+      "name": "List and Dictionary Comprehensions",
+      "description": "Constructing collections concisely using inline loops and conditional expressions.",
+      "difficulty": 3,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c10",
+      "name": "Modules and Imports",
+      "description": "Structuring code across multiple files and leveraging the Python standard library with import statements.",
+      "difficulty": 2,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c11",
+      "name": "Exception Handling",
+      "description": "Gracefully intercepting and managing runtime errors using try, except, finally, and raise blocks.",
+      "difficulty": 3,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c12",
+      "name": "File I/O Operations",
+      "description": "Reading and writing external files safely using built-in methods and context managers.",
+      "difficulty": 3,
+      "domain_tag": "Python Fundamentals"
+    },
+    {
+      "id": "c13",
+      "name": "Recursion",
+      "description": "Implementing functions that call themselves to solve problems divided into base and recursive subproblems.",
+      "difficulty": 4,
+      "domain_tag": "Python Fundamentals"
+    }
+  ],
+  "edges": [
+    {
+      "from_id": "c01",
+      "to_id": "c02",
+      "relation_type": "prerequisite",
+      "weight": 10
+    },
+    {
+      "from_id": "c02",
+      "to_id": "c03",
+      "relation_type": "prerequisite",
+      "weight": 9
+    },
+    {
+      "from_id": "c03",
+      "to_id": "c04",
+      "relation_type": "prerequisite",
+      "weight": 8
+    },
+    {
+      "from_id": "c04",
+      "to_id": "c05",
+      "relation_type": "prerequisite",
+      "weight": 6
+    },
+    {
+      "from_id": "c04",
+      "to_id": "c06",
+      "relation_type": "prerequisite",
+      "weight": 6
+    },
+    {
+      "from_id": "c06",
+      "to_id": "c07",
+      "relation_type": "prerequisite",
+      "weight": 7
+    },
+    {
+      "from_id": "c03",
+      "to_id": "c08",
+      "relation_type": "prerequisite",
+      "weight": 7
+    },
+    {
+      "from_id": "c06",
+      "to_id": "c08",
+      "relation_type": "prerequisite",
+      "weight": 5
+    },
+    {
+      "from_id": "c08",
+      "to_id": "c09",
+      "relation_type": "prerequisite",
+      "weight": 6
+    },
+    {
+      "from_id": "c07",
+      "to_id": "c09",
+      "relation_type": "prerequisite",
+      "weight": 8
+    },
+    {
+      "from_id": "c08",
+      "to_id": "c10",
+      "relation_type": "prerequisite",
+      "weight": 8
+    },
+    {
+      "from_id": "c08",
+      "to_id": "c11",
+      "relation_type": "prerequisite",
+      "weight": 6
+    },
+    {
+      "from_id": "c11",
+      "to_id": "c12",
+      "relation_type": "prerequisite",
+      "weight": 7
+    },
+    {
+      "from_id": "c05",
+      "to_id": "c12",
+      "relation_type": "prerequisite",
+      "weight": 7
+    },
+    {
+      "from_id": "c08",
+      "to_id": "c13",
+      "relation_type": "prerequisite",
+      "weight": 10
+    }
+  ]
+}
